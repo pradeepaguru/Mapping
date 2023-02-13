@@ -16,10 +16,10 @@
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.show_sql">true</property>
         
+ 
     
-
-   <mapping class="com.java.OnetoManymapping.EmployeeDetails"/> 
-    <mapping class="com.java.OnetoManymapping.Certification"/>
+       <mapping class="com.java.manytomany.Categories"/>  
+    <mapping class="com.java.manytomany.Items"/>
   
     
     

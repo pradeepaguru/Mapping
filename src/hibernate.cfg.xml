@@ -16,8 +16,6 @@
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.show_sql">true</property>
         
-    
-   
       <mapping class="com.java.OnetoOnemapping.User_Details"/>  
         <mapping class="com.java.OnetoOnemapping.Vehicles"/>  
         
@@ -26,6 +24,12 @@
   
    <mapping class="com.java.OnetoManymapping.EmployeeDetails"/> 
     <mapping class="com.java.OnetoManymapping.Certification"/>
+ 
+    <mapping class="com.java.PracticeMapping.School"/>  
+    <mapping class="com.java.PracticeMapping.Students"/>
+    
+       <mapping class="com.java.manytomany.Categories"/>  
+    <mapping class="com.java.manytomany.Items"/>
   
     
     
