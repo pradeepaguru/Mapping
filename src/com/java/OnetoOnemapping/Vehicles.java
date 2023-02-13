@@ -1,4 +1,4 @@
-package com.java.mapping;
+package com.java.OnetoOnemapping;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -18,9 +18,14 @@
         
     
    
-      <mapping class="com.java.mapping.User_Details"/>  
-        <mapping class="com.java.mapping.Vehicles"/>  
-   
+      <mapping class="com.java.OnetoOnemapping.User_Details"/>  
+        <mapping class="com.java.OnetoOnemapping.Vehicles"/>  
+        
+              <mapping class="com.java.OnetoManymapping.User_Details1"/>  
+         <mapping class="com.java.OnetoManymapping.Vehicles1"/> 
+  
+   <mapping class="com.java.OnetoManymapping.EmployeeDetails"/> 
+    <mapping class="com.java.OnetoManymapping.Certification"/>
   
     
     
